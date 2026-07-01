@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>나의 자기소개</title>
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <h1>Profile</h1>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <a class="navbar-brand" href="#">목차</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    메뉴
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#introduce">소개</a></li>
+                                    <li><a class="dropdown-item" href="#Experience">경력</a></li>
+                                    <li><a class="dropdown-item" href="#Hobbies">취미</a></li>
+                                    <li><a class="dropdown-item" href="#Talents">특기</a></li>
+                                    <li><a class="dropdown-item" href="#Contact">연락처</a></li>
+                                    <li><a class="dropdown-item" href="#etc">하고 싶은 말</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- <nav>
+            <a href="#introduce">소개</a>
+            <a href="#Experience">경력</a>
+            <a href="#Hobbies">취미</a>
+            <a href="#Talents">특기</a>
+            <a href="#Contact">연락처</a>
+            <a href="#etc">하고 싶은 말</a>
+        </nav> -->
+        </header>
+
+        <main>
+            <div class="container">
+                <section id="introduce">
+                    <h2>1. 소개</h2>
+                </section>
+                <div class="row">
+
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="introduce">
+                            <p>
+                                <strong>이름 :</strong> 정시준
+                            </p>
+                            <p>안녕하세요 반갑습니다. 간략하게나마 제 소개를 하도록 하겠습니다.<br>
+                                저는 컴퓨터와는 상관없는 여행쪽에서 일을 했습니다.<br>
+                                그래서 현재 노베이스 상태로 수업을 듣고 있습니다.<br>
+                                지난 주에 배운게 뭔지 기억이 나지 않아서 지난주에 했던 거 찾아보고 챗gpt에게 사용 방법에 관해서 물어보면서 하고 있습니다.<br>
+                                챗gpt도 딴소리를 해서 답답하네요.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="1000">
+                                    <img src="sleep.jpeg" class="d-block" alt="잠만보">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="1000">
+                                    <img src="picachoo.jpg" class="d-block" alt="피카츄">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="1000">
+                                    <img src="pairi.png" class="d-block" alt="파이리">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="1000">
+                                    <img src="isanghae.jpeg" class="d-block" alt="이상해씨">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">이전</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">다음</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-6 d-flex justify-content-end">
+                        <img src="sleep.jpeg" alt="잠만보">
+                    </div> -->
+
+                </div>
+
+                <section id="Experience">
+                    <h2>2. 경력</h2>
+                </section>
+                <table class="table table-bordered">
+                    <tr>
+                        <th>순번</th>
+                        <th>직장명</th>
+                        <th>기간</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <td>여행사 1</td>
+                        <td>201x년 ~ 202x년</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>여행사 2</td>
+                        <td>202x년 ~ 202x년</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>여행사 3</td>
+                        <td>202x년 ~ 2026년</td>
+                    </tr>
+                </table>
+                <!-- <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>@social</td>
+                </tr>
+            </tbody>
+        </table> -->
+                <!-- <section id="Hobbies">
+                    <h2>3. 취미</h2>
+                </section>
+                <ul>
+                    <li>등산 (100대 명산만)</li>
+                    <li>킥복싱 (안한지 좀 됐음)</li>
+                    <li>PS4 (ps5 가지고 싶은데 돈이 없음)</li>
+                    <li>독서 (만화책이나 추리소설)</li>
+                    <li>산책 (나가고 싶은데 못나감)</li>
+                </ul>
+                <section id="Talents">
+                    <h2>4. 특기</h2>
+                </section>
+                <p>컴퓨터 관련은 특기가 1도 없음</p>
+                <section id="Contact">
+                    <h2>5. 연락처</h2>
+                </section>
+                <p>010-xxxx-1234</p>
+                <section id="etc">
+                    <h2>6. 하고 싶은 말</h2>
+                </section>
+                <p>지난주에 배운것도 기억이 안나서 헤매고 있어서 큰일이다 싶음<br>
+                    <strong>맥북을 사서</strong> 억지로라도 끝까지 가야하는지 심각하게 고민 중
+                </p> -->
+                <section id="Hobbies">
+                    <h2>3. 취미, 특기, 그 외</h2>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="bi bi-controller"> </i>
+                                    &nbsp;취미는 무엇인가요?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>등산 (100대 명산만)</li>
+                                        <li>킥복싱 (안한지 좀 됐음)</li>
+                                        <li>PS4 (ps5 가지고 싶은데 돈이 없음)</li>
+                                        <li>독서 (만화책이나 추리소설)</li>
+                                        <li>산책 (나가고 싶은데 못나감)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="bi bi-lightning"></i>
+                                    &nbsp;특기는 무엇인가요?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    컴퓨터 관련은 아닙니다. 전혀 몰라요
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="bi bi-chat-dots"></i>
+                                    &nbsp;추가로 하고 싶은 말은?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>지난주에 배운것도 기억이 안나서 헤매고 있어서 큰일이다 싶음<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </section>
+        </main>
+
+        <!-- <div class="container">
+            <fieldset>
+                <label><strong>동료가 되겠습니까?</strong></label>
+                <div class="question">
+                    <div class="choice">
+                        <label for="yes">예스</label>
+                        <input type="radio" id="yes" name="choice">
+                    </div>
+                    <div class="ok">
+                        <label for="ok">OK</label>
+                        <input type="radio" id="ok" name="choice">
+                    </div>
+                    <div class="ok">
+                        <label for="agree">동의</label>
+                        <input type="radio" id="agree" name="choice">
+                    </div>
+                </div>
+            </fieldset>
+        </div> -->
+        <!-- Button trigger modal -->
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-primary btn-lg my-5" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">
+                설문조사
+            </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">동료가 되겠습니까?</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">네</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="container">
+                <p>&copy;2026 Profile</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+        </script>
+    </div>
+</body>
+
+</html>

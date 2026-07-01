@@ -1,0 +1,93 @@
+/* table {
+      border-collapse: collapse;
+      width: 100%;
+    }*/
+th,
+td,
+tr {
+  /* border: 1px solid black;
+      padding: 8px; */
+  text-align: center;
+}
+
+/* .question label:hover {
+  color: red;
+  font-weight: bold;
+}
+
+
+.question label:has(+ input:checked) {
+  color: red;
+  font-weight: bold;
+}
+
+.question input[type="radio"] {
+  accent-color: red;
+} */
+
+header {
+  background-color: lightgreen;
+  text-align: center;
+}
+
+/* nav {background-color: lightgray; text-align: center;}
+nav a{margin: 0 20px;} */
+
+footer {
+  text-align: center;
+  background-color: gray;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  text-align: center;
+  background-color: yellow;
+  margin: 40px 0 !important;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+}
+
+/* #introduce {margin-top: 40px;}
+#Experience {margin-top: 40px;}
+#Talents {margin-top: 40px;}
+#Contact {margin-top: 40px;}
+#etc {margin-top: 40px;} */
+
+#Hobbies {margin-top: 40px;}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px gray;
+  margin: 30px;
+}
+
+.carousel-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  margin: auto;
+}
+
+.carousel {
+  width: 300px;
+  margin-left: auto;
+}
+
+h2 button{font-weight: bold;}
+
